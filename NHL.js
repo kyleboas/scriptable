@@ -293,8 +293,6 @@ async function addMediumWidgetData(oWidget) {
   const oGameData = await prepareData();
 
   const oTopRow = oWidget.addStack();
-  await setStackBackground(oTopRow);
-  oTopRow.cornerRadius = 12;
   oTopRow.size = new Size(308, 15);
   oTopRow.setPadding(7, 7, 7, 7);
   oTopRow.layoutVertically();
@@ -307,7 +305,7 @@ async function addMediumWidgetData(oWidget) {
     const oHeadingStack = oTopRow.addStack();
     oHeadingStack.layoutHorizontally();
     oHeadingStack.addSpacer();
-    oHeadingStack.setPadding(7, 7, 7, 7);
+    oHeadingStack.setPadding(10, 7, 7, 7);
 
     let oHeadingText;
     if (
@@ -351,8 +349,6 @@ async function addMediumWidgetData(oWidget) {
     oHomeTeamStack.layoutVertically();
     oHomeTeamStack.centerAlignContent();
     oHomeTeamStack.setPadding(7, 7, 7, 7);
-    await setStackBackground(oHomeTeamStack);
-    oHomeTeamStack.cornerRadius = 12;
     oHomeTeamStack.size = new Size(150, 0);
 
     const oHomeTeamLogoStack = oHomeTeamStack.addStack();
@@ -412,8 +408,6 @@ async function addMediumWidgetData(oWidget) {
     oAwayTeamStack.layoutVertically();
     oAwayTeamStack.centerAlignContent();
     oAwayTeamStack.setPadding(7, 7, 7, 7);
-    await setStackBackground(oAwayTeamStack);
-    oAwayTeamStack.cornerRadius = 12;
     oAwayTeamStack.size = new Size(150, 0);
 
     const oAwayTeamLogoStack = oAwayTeamStack.addStack();
@@ -473,8 +467,6 @@ async function addMediumWidgetData(oWidget) {
     const oFutureGamesStack = oWidget.addStack();
     oFutureGamesStack.layoutHorizontally();
     oFutureGamesStack.centerAlignContent();
-    await setStackBackground(oFutureGamesStack);
-    oFutureGamesStack.cornerRadius = 12;
     oFutureGamesStack.setPadding(3, 7, 3, 7);
     oFutureGamesStack.addSpacer();
     oFutureGamesStack.size = new Size(308, 15);
