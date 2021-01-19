@@ -27,7 +27,7 @@ A snap-shot of the market and a stock portfolio.
 * Account Value, day's change in dollar amount and percentage 
 * Each individual stock holding listed, with price and day's change
 
-In development.
+````Being made````
 
 - - - 
 
