@@ -4,7 +4,7 @@ Here is a collection of Widgets I've made or modified using the amazing [Scripta
 
 - - - 
 
-## Modified TermiWidget 
+## TermiWidget 
 Simple terminal like widget that displays basic information like the date, upcoming events and weather. Credit to [Spencerwooo](https://gist.github.com/spencerwooo/7955aefc4ffa5bc8ae7c83d85d05e7a4) for the original that I modified. 
 
 ![](https://github.com/kyleboas/scriptable/blob/main/images/3A417EA7-07AD-474E-AD46-CEC1A800CD27.jpeg)
