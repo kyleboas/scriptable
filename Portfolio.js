@@ -29,11 +29,11 @@ const CASH = '0';
 
 // Stock 1 - IRBT
   const Symbol_One = 'IRBT';
-  const QTY_One = '1';
+  const QTY_One = '0';
   
 // Stock 2 - PACB
-  const Symbol_Two = 'PACB';
-  const QTY_Two = '1';
+  const Symbol_Two = 'AAPL';
+  const QTY_Two = '0';
 
 var availble = CASH * QTY_One;
     log(availble)
