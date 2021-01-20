@@ -27,8 +27,7 @@ const COLORS = {
 };
 
 // TODO: PLEASE SET THESE VALUES
-const NAME = 'Kyle';
-const WEATHER_API_KEY = 'ad19cb7dfcde04146f6f6551eec32c24';
+const WEATHER_API_KEY = 'key';
 const CALENDAR_NAME = 'Main';
 
 // Whether or not to use a background image for the widget (if false, use gradient color)
